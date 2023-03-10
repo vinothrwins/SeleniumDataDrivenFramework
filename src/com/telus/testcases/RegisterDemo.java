@@ -20,6 +20,8 @@ import org.openqa.selenium.support.ui.Select;
 import com.telus.utilities.ExcelUtility;
 
 
+// 10th March 2023 - Code is updated by Rahul - Added the sysout message 
+
 public class RegisterDemo {
 
 	public static XSSFWorkbook workbook;
@@ -99,6 +101,8 @@ public class RegisterDemo {
 			// To Create Driver Object in Driver Interface
 			WebDriver driver = new ChromeDriver();
 
+			System.out.println("Execution started");
+			
 			// Implicit Wait 
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
